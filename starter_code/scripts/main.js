@@ -8,6 +8,7 @@ $('.readmore').click(function() {
   $('#show-this-on-click').slideDown();
   $('.readmore').hide();
   $('.readless').show();
+  event.preventDefault();
 });
 
 // If a user clicks "Read Less" on the primary column:
@@ -18,14 +19,18 @@ $('.readless').click(function(){
   $('.readless').hide();
   $('.hide').slideUp();
   $('.readmore').show();
+  event.preventDefault();
 });
 
 // Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the <span> inside that <p> slide down and hide the "Learn More" link using $.slideDown() and $.hide()
 
 
 
-
-
+$('.learnmore').click(function() {
+  $('#learnmoretext').slideDown();
+  $('.learnmore').hide();
+  event.preventDefault();
+});
 
 
 
