@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   $('.readless').click(function(){
     $('.readless').hide();
-    $('.hide').slideUp();
+    $('#show-this-on-click').slideUp();
     $('.readmore').show();
     event.preventDefault();
   });
@@ -30,7 +30,4 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-
-
-  
 });
