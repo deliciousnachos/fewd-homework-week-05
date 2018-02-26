@@ -30,4 +30,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+// should I add a function to show a link to hide the learn more text?
+
+
 });
